@@ -1,0 +1,89 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-09T10:23:19.734Z",
+        "line": 4,
+        "name": "Login to the application.",
+        "description": "",
+        "id": "login-to-the-application-under-test.;login-to-the-application.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5626800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user will open the Chrome browser and launch the facebook application.",
+            "match": {
+              "location": "StepDefinition3.user_will_open_the_Chrome_browser_and_launch_the_facebook_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2204700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user will enter the username into the UserName field.",
+            "match": {
+              "location": "StepDefinition3.user_will_enter_the_username_into_the_UserName_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1716700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters the password into the Password field.",
+            "match": {
+              "location": "StepDefinition3.user_enters_the_password_into_the_Password_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1281900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on the Login button.",
+            "match": {
+              "location": "StepDefinition3.user_clicks_on_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1703300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "validate if the user login is successful.",
+            "match": {
+              "location": "StepDefinition3.validate_if_the_user_login_is_successful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Login to the application under test.",
+    "description": "",
+    "id": "login-to-the-application-under-test.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Question8.feature",
+    "tags": []
+  }
+]
